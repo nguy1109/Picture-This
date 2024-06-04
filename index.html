@@ -15,11 +15,13 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <picture>
-      <source media="(max-width: 959px)" srcset="images/museum-landscape.jpg">
-      <source media="(min-width: 960px)" srcset="images/museum-square.jpg">
-      <img src="images/museum.jpg" alt="placeholder">
-    </picture>
+    <p>
+      <picture>
+        <source srcset="images/museum-landscape.jpg" media="(max-width:959px)">
+        <source srcset="images/museum-square.jpg" media="(min-width:960px)">
+        <img src="images/museum.jpg" alt="placeholder">
+      </picture>
+    </p>
 
   </header>
 </body>
